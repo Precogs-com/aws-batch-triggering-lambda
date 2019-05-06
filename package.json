@@ -10,19 +10,19 @@
     "publish-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov"
   },
   "engines": {
-    "node": "8.10"
+    "node": "8.10.0"
   },
   "dependencies": {
-    "@coorpacademy/eslint-plugin-coorpacademy": "^8.3.0",
-    "aws-sdk": "^2.432.0",
+    "@coorpacademy/eslint-plugin-coorpacademy": "^8.3.1",
+    "aws-sdk": "^2.445.0",
     "eslint": "^5.16.0"
   },
   "devDependencies": {
     "ava": "^1.4.1",
-    "aws-sdk-mock": "^4.3.1",
-    "codecov": "^3.2.0",
+    "aws-sdk-mock": "^4.4.0",
+    "codecov": "^3.3.0",
     "lambda-tester": "^3.5.0",
-    "nyc": "^13.3.0"
+    "nyc": "^14.0.0"
   },
   "keywords": [
     "aws",

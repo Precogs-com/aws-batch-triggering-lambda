@@ -180,7 +180,7 @@ test('validate simple unique prefix pattern', t => {
   t.falsy(validatePattern(pattern, 'this-is-super-red'));
 });
 
-test('validate simple unique pattern', t => {
+test('validate simple unique pattern bis', t => {
   const pattern = '(t[io])+';
   t.truthy(validatePattern(pattern, 'to'));
   t.truthy(validatePattern(pattern, 'toto'));
